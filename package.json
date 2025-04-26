@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Collaborative To Do List",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html --port 3000",
+    "build": "parcel build index.html --dist-dir build"
   },
   "repository": {
     "type": "git",
@@ -15,8 +16,11 @@
     "url": "https://github.com/manojkumardesai/collabToDo/issues"
   },
   "homepage": "https://github.com/manojkumardesai/collabToDo#readme",
-  "devDependencies": {
+  "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.5.0"
   }
 }
