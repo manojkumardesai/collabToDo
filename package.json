@@ -4,7 +4,7 @@
   "description": "Collaborative To Do List",
   "scripts": {
     "start": "parcel index.html --port 3000",
-    "build": "parcel build index.html --dist-dir build"
+    "build": "parcel build index.html --dist-dir dist"
   },
   "repository": {
     "type": "git",
